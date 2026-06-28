@@ -1,0 +1,25 @@
+.joke-form {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.joke-form select {
+  transition: all 0.3s ease;
+}
+
+.joke-form select:hover {
+  border-color: #6366f1;
+}
+
+.joke-form button {
+  transition: all 0.3s ease;
+}
+
+.joke-form button:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+
+.joke-form button:active:not(:disabled) {
+  transform: translateY(0);
+}
